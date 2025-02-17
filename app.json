@@ -5,16 +5,27 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+    "splash":{
+      "image":"./assets/images/splash.png",
+      "resizeMode":"cover",
+      "backgroundColor":"#ffffff"
+
+    },
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bunddleIdentifier":"jp.aaabbbccc.pokeApp",
+      "buildNumber":"1.0.0"
     },
     "android": {
+      "package":"jp.aaabbbccc.pokeApp",
+      "versionCode":1,
+      "permissions":[],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon_adaptive_background.png",
+        "backgroundImage": "./assets/images/icon_adaptive_foreground.png"
       }
     },
     "web": {
